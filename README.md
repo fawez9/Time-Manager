@@ -19,12 +19,15 @@ GUIDE:
 7) you need to fill the spots marked on the TimeManager.py file by your time zone and calendar id (you can get that from your calendar)
 
 
-8) install requirements: pip install -r requirements.txt (make sure you have python updated first)
+8) you'll need to run CreateTable.py once to generate the hours.db file (all your commits will be found there)
 
 
-9) now you can execute the TimeManager.py script and add or commit your time spent : example(python TimeManager.py  add 2 "Coding") <--- python TimeManager.py add hours and "description" or python TimeManager.py commit
+9) install requirements: pip install -r requirements.txt (make sure you have python updated first)
 
 
-10)you can also add the credentials.json to your root folder and make the TimeManager.py  executable , add an alias to it on your "bashrc" file so that you can run the commands above from your terminal directly 
+10) now you can execute the TimeManager.py script and add or commit your time spent : example(python TimeManager.py  add 2 "Coding") <--- python TimeManager.py add hours and "description" or python TimeManager.py commit
+
+
+11)you can also add the credentials.json to your root folder and make the TimeManager.py  executable , add an alias to it on your "bashrc" file so that you can run the commands above from your terminal directly 
 
 
